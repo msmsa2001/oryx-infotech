@@ -1,6 +1,6 @@
 Thanks for downloading this template!
 
-Template Name: Impact
-Template URL: https://bootstrapmade.com/impact-bootstrap-business-website-template/
+Template Name: Bootslander
+Template URL: https://bootstrapmade.com/bootslander-free-bootstrap-landing-page-template/
 Author: BootstrapMade.com
 License: https://bootstrapmade.com/license/
