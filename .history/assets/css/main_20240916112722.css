@@ -177,7 +177,7 @@ h6 {
 /* Global Header on Scroll
 ------------------------------*/
 .scrolled .header {
-  --background-color: color-mix(in srgb, rgba(8, 0, 94, 0.9), white 40%);
+  --background-color: color-mix(in srgb, #08005e, white 50%);
 }
 
 /*--------------------------------------------------------------
