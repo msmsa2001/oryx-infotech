@@ -401,24 +401,13 @@ var prepare = function prepare($elements, options) {
   return $elements;
 };
 
-/**
- * Generate initial array with elements as objects
- * This array will be extended later with elements attributes values
- * like 'position'
- */
+
 var elements = (function () {
   var elements = document.querySelectorAll('[data-aos]');
   return Array.prototype.map.call(elements, function (node) {
     return { node: node };
   });
 });
-
-/**
- * *******************************************************
- * AOS (Animate on scroll) - wowjs alternative
- * made to animate elements on scroll in both directions
- * *******************************************************
- */
 
 /**
  * Private variables
