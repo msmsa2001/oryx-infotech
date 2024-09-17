@@ -45,8 +45,8 @@
 }
 
 .dark-background {
-  --background-color: #08005e;
-  /* --background-color: #004d4d; */
+  /* --background-color: #08005e; */
+  --background-color: #004d4d;
     --default-color: #ffffff;
   --heading-color: #ffffff;
   --surface-color: #0c0091;
@@ -177,7 +177,7 @@ h6 {
 /* Global Header on Scroll
 ------------------------------*/
 .scrolled .header {
-  --background-color: color-mix(in srgb, rgba(8, 0, 94, 0.9), white 40%);
+  --background-color: color-mix(in srgb, #004d4d, white 50%);
 }
 
 /*--------------------------------------------------------------
@@ -440,12 +440,7 @@ h6 {
     display: block;
   }
 }
-@media (max-width: 600px){
-  .header .logo img {
-    max-height: 30px;
-    /* margin-right: 8px; */
-}
-}
+
 /*--------------------------------------------------------------
 # Global Footer
 --------------------------------------------------------------*/
@@ -813,8 +808,8 @@ section,
 
 .hero:before {
   content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 10%);
-  /* background-color: color-mix(in srgb, var(--background-color), white 40%); */
+  /* background: color-mix(in srgb, var(--background-color), transparent 10%); */
+  background-color: color-mix(in srgb, var(--background-color), white 40%);
     position: absolute;
   inset: 0;
   z-index: 2;
