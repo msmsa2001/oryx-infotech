@@ -1703,3 +1703,15 @@ section,
 /* # Starter Section Section */
 /* .starter-section {
 } */
+
+.copyright-footer{
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.copyright-footer span a{
+  color: color-mix(in srgb, var(--default-color), transparent 30%);
+}
